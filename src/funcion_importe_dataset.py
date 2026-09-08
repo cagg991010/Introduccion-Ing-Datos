@@ -67,14 +67,3 @@ def cargar_dataset_physionet(db_name: str,
     }
 
     return df, info_dict
-
-df, info = cargar_dataset_physionet(db_name='mitdb', record_id='100', sampfrom=0, sampto=1000)
-
-print(df.head())
-print(info)
-
-plt.plot(df['time [s]'], df[df.columns[1]])  # Graficar la primera señal
-plt.title(f'{df.columns[1]} vs Time')
-plt.xlabel('Time [s]')
-plt.ylabel('Signal')
-plt.show()

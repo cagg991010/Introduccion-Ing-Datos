@@ -1,0 +1,79 @@
+{
+    "record_name": "mgh001",
+    "db_name": "mghdb",
+    "sampling_frequency_hz": 360,
+    "num_channels": 8,
+    "total_samples_loaded": 1000,
+    "duration_seconds": 2.7777777777777777,
+    "signals_info": [
+        {
+            "index": 0,
+            "name": "ECG lead I",
+            "unit": "mV"
+        },
+        {
+            "index": 1,
+            "name": "ECG lead II",
+            "unit": "mV"
+        },
+        {
+            "index": 2,
+            "name": "ECG lead V",
+            "unit": "mV"
+        },
+        {
+            "index": 3,
+            "name": "ART",
+            "unit": "mmHg"
+        },
+        {
+            "index": 4,
+            "name": "PAP",
+            "unit": "mmHg"
+        },
+        {
+            "index": 5,
+            "name": "CVP",
+            "unit": "mmHg"
+        },
+        {
+            "index": 6,
+            "name": "Resp. Imp.",
+            "unit": "mV"
+        },
+        {
+            "index": 7,
+            "name": "CO2",
+            "unit": "mV"
+        }
+    ],
+    "comments": [
+        "<age>: 80 <sex>: F <diagnoses>: Carotid endartarectomy",
+        "PERTINENT HISTORY:",
+        "Congenital complete heart block",
+        "ELECTROCARDIOGRAPHIC DATA:",
+        "UNDERLYING RHYTHM:",
+        "Third degree heart block with junctional escape rhythm and intra-ventricular conduction defect @ 40 bpm",
+        "RHYTHM DISTURBANCES:",
+        "Unifocal ventricular ectopy",
+        "ECG INTERPRETATION:",
+        "Left atrial hypertrophy",
+        "Left ventricular hypertrophy",
+        "Intraventricular conduction defect",
+        "Possible old lateral myocardial infarction",
+        "Nonspecific ST segment and T wave abnormalities",
+        "HEMODYNAMIC DATA:",
+        "ART: 140/50",
+        "PAP: 56/16",
+        "RAP: 10",
+        "WAVEFORM PATTERNS:",
+        "\"Cannon waves\" in CVP due to A-V asynchrony with CHB",
+        "Retrograde cannon wave effect in pulmonary arterial trace.",
+        "Pulmonary hypertension.",
+        "RESPIRATORY DATA:",
+        "RATE:   16 bpm",
+        "MODE OF VENTILATION:",
+        "Spontaneous"
+    ],
+    "base_datetime": null
+}
